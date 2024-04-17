@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>MyWebsite 個人網站</h1>
+        <h1>亞當的個人網站</h1>
     </header>
 
 
@@ -21,11 +21,13 @@
     </div>
 
     <div class="button2">
-       <a href="#" class="b1" >We're</a>
+       <a href="#skill1area1" class="b1" >我的技能</a>
     </div>
 
     <div class="button3">
-       <a href="#" class="b1" >We're</a>
+       <a href="#experiance" class="b1" >我的學習經歷
+
+       </a>
     </div>
 
 </div>
@@ -35,7 +37,7 @@
 
 
 
-<br>
+
 
 <section>
 <div class="test">
@@ -46,16 +48,16 @@
          <p>uoahfuohnvihain;jignahcnhujagbjhkxbgjklgxjklg kgl xhjk lgJX GL</p>
          <p>uoahfuohnvihain;jignahcnhujagbjhkxbgjklgxjklg kgl xhjk lgJX GL</p>
          <p>uoahfuohnvihain;jignahcnhujagbjhkxbgjklgxjklg kgl xhjk lgJX GL</p>
-         <img class="line" src="line1.jpg" alt="Avatar">
-         <img class="fb"src="fb.jpg" alt="Avatar">
-         <img class="ig"src="ig.jpg" alt="Avatar">
+         <a href="https://line.me/ti/p/m2HYFqVjBV"><img class="line" src="picture/line.png" alt="Avatar"></a>
+         <a href="https://www.facebook.com/A1d1am?locale=zh_TW"> <img class="fb"src="picture/fb.jpg" alt="Avatar"></a>
+         <a href="https://www.instagram.com/idealistic_dimention_approach_/"> <img class="ig"src="picture/ig.jpg" alt="Avatar"></a>
     </div>
 
     <aside class="right">
-       <img src="face.webp" class="imgface" alt="Avatar">
+       <img src="picture/face.webp" class="imgface" alt="Avatar">
     </aside>
 </div>
-   <br>
+   
   
 
 
@@ -66,26 +68,26 @@
          <span class="bar"> <span class="html"></span></span>
      </li>
 
-     <li><h3>HTML</h3>
+     <li><h3>Python</h3>
         <span class="bar"> <span class="python"></span></span>
     </li>
 
-    <li><h3>HTML</h3>
-        <span class="bar"> <span class="css"></span></span>
+    <li><h3>C#</h3>
+        <span class="bar"> <span class="c"></span></span>
     </li>
 
-    <li><h3>HTML</h3>
-        <span class="bar"> <span class="c"></span></span>
+    <li><h3>Css</h3>
+        <span class="bar"> <span class="css"></span></span>
     </li>
 
 <br>
 
 
-<div class="skill1area1" style="border: solid black; display: flex">
+<div class="skill1area1" id="skill1area1" style="border: solid black; display: flex">
     <div class="skill1">
         <h1>skill1</h1>
-        <img src="skill.jpg" style="width:100%;">
-        <p>dhksfhlgbfgwl gflwk</p>
+        <img src="picture/skillset1.png" style="width:100%;">
+        <h3>Unity遊戲製作</h3>
     </div>
 
     <div class="introspace1" style=" margin-top: 5%; background-color: brown;margin: 2% " >
@@ -104,8 +106,8 @@
         
         <div class="skill2">
             <h1 >skill2</h1>
-            <img src="skill.jpg" style="width:100%;">
-            <p>dhksfhlgbfgwl gflwk</p>
+            <img src="picture/skillset2.webp" style="width:100%;">
+            <h3>英文口說能力</h3>
         </div>
         <div class="introspace2" style="text-align: center; margin-top: 5%; background-color: brown;margin: 2%">
             <p>29-year-old circus performer Joshua Lengfelder discovered a bot called Fatum Project in a fringe science chat group on Telegram in January 2019. According to The New York Times, "He absorbed the project’s theories about how random exploration could break people out of their predetermined realities, and how people could influence random outcomes with their minds." Lengfelder then created a Telegram bot using Fatum Project's code, generating coordinates. He then created the subreddit r/randonauts in March. In October, developer Simon Nishi McCorkindale made the bot's webpage.[4]
@@ -134,8 +136,8 @@
 
         <div class="skill3">
             <h1>skill3</h1>
-            <img src="skill.jpg" style="width:100%;">
-            <p>dhksfhlgbfgwl gflwk</p>
+            <img src="picture/skillset3.jpg" style="width:100%;">
+            <h3>街頭健身</h3>
         </div>
     
         
@@ -148,10 +150,10 @@
 
 
 
-<div class="experiance">
+<div class="experiance" id="experiance">
   <div class="exp1">
      this is my school project1
-     <img class="anischool" src="anischool.avif" alt="">
+     <img class="anischool" src="picture/schoolexp1.png" alt="">
      <p class="exp1content" style="text-align: right; border: solid black;">hsilfbuiewyndhemodhuenlgubguxnlhjkblcgtuelvbgug;</p>
   </div>
 
@@ -161,8 +163,39 @@
     <p class="exp2content" style="text-align: right; border: solid black;">hsilfbuiewyndhemodhuenlgubguxnlhjkblcgtuelvbgug;</p>
  </div>
 
+ <div class="exp2">
+    this is my school project2
+    <img class="anischool" src="anischool.avif" alt="">
+    <p class="exp2content" style="text-align: right; border: solid black;">hsilfbuiewyndhemodhuenlgubguxnlhjkblcgtuelvbgug;</p>
+ </div>
+
 
 </div>
+
+
+
+<button class="scrollTop">
+TOP
+   <!--<i class="arrow-up"></i>--> 
+</button>
+<script>
+const btn = document.querySelector(".scrollTop");
+
+btn.addEventListener("click",()=>{
+   document.documentElement.scrollTo({
+
+    top:0,
+    behavior:"smooth"
+   } );
+
+
+
+});
+
+
+
+
+</script>
 
 
 

@@ -315,4 +315,17 @@ margin-right: 35%;
 
 
 
-  
+  /*----------------------------------*/
+
+  .scrollTop{
+   height: 50px;
+   width: 50px;
+    position: fixed;
+    bottom:25px;
+    right:25px;
+    padding:10px;
+    background-color: aquamarine;
+    color:aliceblue;
+    border-radius: 50%;
+
+  }
