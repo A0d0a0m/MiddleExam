@@ -304,6 +304,19 @@ margin-right: 35%;
     margin-left: 10%;
  }
 
+ .exp3{
+  border: solid black;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.exp3content{
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+
 
   .anischool{
     width: 30%;
