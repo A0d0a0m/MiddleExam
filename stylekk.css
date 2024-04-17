@@ -1,0 +1,318 @@
+
+  p{
+    position: relative;
+  }
+  img{
+    position: relative;
+
+  }
+  h1{
+    position: relative;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /*----------------------------------*/
+
+  header {
+    background-color: #72ea1b;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+
+}
+
+
+
+  
+
+
+  
+  .top{
+    position: relative;
+    display: flex;
+   background-color: aquamarine;
+   text-align: center;
+  }
+
+  
+
+
+
+.button1{
+    margin: 5px;
+ background-color: aqua;
+ width: 30%;
+ height: 60px;
+
+
+}
+
+.button2{
+    margin: 5px;
+    background-color: rgb(0, 255, 76);
+    width: 30%;
+    height: 60px;
+   
+ }
+
+ .button3{
+    margin: 5px;
+    background-color: rgb(255, 247, 0);
+    width: 30%;
+    height: 60px;
+   
+ }
+
+
+/*----------------------------------*/
+
+
+ .container{
+   
+    position: relative;
+    background-color: aquamarine;
+ }
+
+
+ .left{
+   
+    background-color: rgb(187, 226, 12);
+
+   width: 50%;
+    position: relative;
+ }
+
+ .right{
+    background-color: rgb(10, 103, 233);
+   
+    width: 50%;
+    position: relative;
+
+}
+
+
+
+
+ .line {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    ;
+  }
+
+  .fb {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    ;
+  }
+
+  .ig {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    ;
+  }
+ 
+  .imgface{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+
+
+
+
+/*----------------------------------*/
+.container2{
+    background-color: aqua;
+    padding: 100px;
+}
+
+
+  
+  .bar{
+background: #d68010;
+display: block;
+height: 20px;
+border:1px solid rgba(252, 250, 250, 0.3);
+border-radius: 10px;
+overflow:hidden;
+transition:all 0.3s cubic-bezier(-25,-8,-25,1);
+border: solid black;
+  }
+
+  .bar span {
+    height:20px;
+    float:left;
+    background-color: blueviolet;
+   
+  }
+
+  .html{
+    width:90%;
+    animation: html 3s;
+   
+  }
+
+  .css{
+    width:70%;
+    animation: html 3s;
+  }
+
+  .python{
+    width:45%;
+    animation: html 3s;
+  }
+
+  .c{
+    width:60%;
+    animation: html 3s;
+  }
+
+  @keyframes html{
+    0%{
+        width:0%
+    }
+    100%{
+        width: 90%;
+    }
+  }
+
+
+  @keyframes css{
+    0%{
+        width:0%
+    }
+    100%{
+        width: 70%;
+    }
+  }
+
+
+  @keyframes python{
+    0%{
+        width:0%
+    }
+    100%{
+        width: 45%;
+    }
+  }
+
+
+  @keyframes c{
+    0%{
+        width:0%
+    }
+    100%{
+        width: 60%;
+    }
+  }
+
+  
+
+/*----------------------------------*/
+
+.skillarea{
+  display:inline-block;
+}
+
+
+.skill1{
+  border: solid black;
+ width: 50%;
+  /*margin-right: 70%;*/
+ 
+}
+
+.introspace1{
+  width: 50%;
+}
+
+.skill2{
+    border: solid black;
+margin-left: 35%;
+margin-right: 35%;
+
+}
+
+.skill3{
+    border: solid black;
+   /* margin-left: 70%;*/
+   width: 50%;
+}
+.introspace3{
+  width: 50%;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .test{
+    background-color: aqua;
+    display: flex;
+  }
+
+
+  .footer{
+    background-color: blueviolet;
+    height: 100px;
+  }
+
+
+  .experiance{
+    background-color: rgb(78, 190, 153);
+  }
+
+  .exp1{
+    border: solid black;
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+
+  .exp1content{
+     margin-top: 5%;
+     margin-left: 10%;
+  }
+
+  .exp2{
+    border: solid black;
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+
+  .exp2content{
+    margin-top: 5%;
+    margin-left: 10%;
+ }
+
+
+  .anischool{
+    width: 30%;
+    height: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: solid black;
+  }
+
+
+
+  
